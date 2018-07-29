@@ -1,0 +1,66 @@
+img {
+
+}
+
+img.glasses {
+    position: absolute;
+
+    top: 30%;
+    z-index: -1;
+}
+
+img.hats {
+    position: absolute;
+
+    top: 30%;
+    z-index: -2;
+}
+
+img.mouths {
+    position: absolute;
+
+    top: 30%;
+    z-index: -3;
+}
+
+img.eyes {
+    position: absolute;
+
+    top: 30%;
+    z-index: -4;
+}
+
+img.hairs {
+    position: absolute;
+
+    top: 30%;
+    z-index: -5;
+}
+
+img.horns {
+    position: absolute;
+
+    top: 30%;
+    z-index: -6;
+}
+
+img.bodies {
+    position: absolute;
+
+    top: 30%;
+    z-index: -7;
+}
+
+img.arms {
+    position: absolute;
+
+    top: 30%;
+    z-index: -8;
+}
+
+img.legs {
+    position: absolute;
+
+    top: 30%;
+    z-index: -9;
+}

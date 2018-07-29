@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Character Creation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="app" >
+
+    <img  style="width: 400px;" class="hats" :src="'img/hats/hat' + hatNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="glasses" :src="'img/glasses/glass' + glassNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="mouths" :src="'img/mouths/mouth' + mouthNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="eyes" :src="'img/eyes/eye' + eyeNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="hairs" :src="'img/hairs/hair' + hairNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="horns" :src="'img/horns/horn' + hornNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="bodies" :src="'img/bodies/body' + bodyNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="arms" :src="'img/arms/arm' + armNumber +'.png'" alt="hat">
+    <img  style="width: 400px;" class="legs" :src="'img/legs/leg' + legNumber +'.png'" alt="hat">
+    <label for="glass">glass</label><input  v-model="glassNumber" type="number" max="7" >
+    <br><label for="hat">hat</label><input  v-model="hatNumber" type="number" max="9" >
+    <br><label for="mouth">mouth</label><input  v-model="mouthNumber" type="number" max="17" >
+    <br><label for="eye">eye</label><input  v-model="eyeNumber" type="number" max="17" >
+    <br><label for="hair">hair</label><input  v-model="hairNumber" type="number" max="17" >
+    <br><label for="horn">horn</label><input  v-model="hornNumber" type="number" max="17" >
+    <br><label for="body">body</label><input  v-model="bodyNumber" type="number" max="17" >
+    <br><label for="arm">arm</label><input  v-model="armNumber" type="number" max="17" >
+    <br><label for="leg">leg</label><input  v-model="legNumber" type="number" max="17" >
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js'></script>
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+
+</html>
